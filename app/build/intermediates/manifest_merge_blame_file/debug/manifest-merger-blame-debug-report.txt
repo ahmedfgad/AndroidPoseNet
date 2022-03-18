@@ -1,0 +1,64 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="org.tensorflow.lite.examples.posenet"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+7-->D:\Tutorials\Heartbeat\PoseNet\shared\android\app\src\main\AndroidManifest.xml:5:3-15
+8        android:minSdkVersion="21"
+8-->D:\Tutorials\Heartbeat\PoseNet\shared\android\app\src\main\AndroidManifest.xml:5:3-15
+9        android:targetSdkVersion="26" />
+9-->D:\Tutorials\Heartbeat\PoseNet\shared\android\app\src\main\AndroidManifest.xml:5:3-15
+10
+11    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+11-->D:\Tutorials\Heartbeat\PoseNet\shared\android\app\src\main\AndroidManifest.xml:4:3-77
+11-->D:\Tutorials\Heartbeat\PoseNet\shared\android\app\src\main\AndroidManifest.xml:4:20-75
+12
+13    <application
+13-->D:\Tutorials\Heartbeat\PoseNet\shared\android\app\src\main\AndroidManifest.xml:7:3-28:17
+14        android:allowBackup="true"
+14-->D:\Tutorials\Heartbeat\PoseNet\shared\android\app\src\main\AndroidManifest.xml:8:7-33
+15        android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
+15-->[com.android.support:support-compat:28.0.0] C:\Users\Ahmed Fawzy Gad\.gradle\caches\transforms-2\files-2.1\561633c237e3a09f67947f442c86ad3a\support-compat-28.0.0\AndroidManifest.xml:22:18-91
+16        android:debuggable="true"
+17        android:icon="@mipmap/ic_launcher"
+17-->D:\Tutorials\Heartbeat\PoseNet\shared\android\app\src\main\AndroidManifest.xml:9:7-41
+18        android:label="@string/app_name"
+18-->D:\Tutorials\Heartbeat\PoseNet\shared\android\app\src\main\AndroidManifest.xml:10:7-39
+19        android:roundIcon="@mipmap/ic_launcher_round"
+19-->D:\Tutorials\Heartbeat\PoseNet\shared\android\app\src\main\AndroidManifest.xml:11:7-52
+20        android:supportsRtl="true"
+20-->D:\Tutorials\Heartbeat\PoseNet\shared\android\app\src\main\AndroidManifest.xml:12:7-33
+21        android:testOnly="true"
+22        android:theme="@style/MaterialTheme" >
+22-->D:\Tutorials\Heartbeat\PoseNet\shared\android\app\src\main\AndroidManifest.xml:13:7-43
+23        <activity
+23-->D:\Tutorials\Heartbeat\PoseNet\shared\android\app\src\main\AndroidManifest.xml:15:5-19:16
+24            android:name="org.tensorflow.lite.examples.posenet.TestActivity"
+24-->D:\Tutorials\Heartbeat\PoseNet\shared\android\app\src\main\AndroidManifest.xml:16:9-37
+25            android:exported="true"
+25-->D:\Tutorials\Heartbeat\PoseNet\shared\android\app\src\main\AndroidManifest.xml:18:9-32
+26            android:label="@string/app_name" >
+26-->D:\Tutorials\Heartbeat\PoseNet\shared\android\app\src\main\AndroidManifest.xml:17:9-41
+27        </activity>
+28        <activity
+28-->D:\Tutorials\Heartbeat\PoseNet\shared\android\app\src\main\AndroidManifest.xml:21:5-26:16
+29            android:name="org.tensorflow.lite.examples.posenet.CameraActivity"
+29-->D:\Tutorials\Heartbeat\PoseNet\shared\android\app\src\main\AndroidManifest.xml:21:15-45
+30            android:exported="true" >
+30-->D:\Tutorials\Heartbeat\PoseNet\shared\android\app\src\main\AndroidManifest.xml:21:46-69
+31            <intent-filter>
+31-->D:\Tutorials\Heartbeat\PoseNet\shared\android\app\src\main\AndroidManifest.xml:22:7-25:23
+32                <action android:name="android.intent.action.MAIN" />
+32-->D:\Tutorials\Heartbeat\PoseNet\shared\android\app\src\main\AndroidManifest.xml:23:9-60
+32-->D:\Tutorials\Heartbeat\PoseNet\shared\android\app\src\main\AndroidManifest.xml:23:17-58
+33
+34                <category android:name="android.intent.category.LAUNCHER" />
+34-->D:\Tutorials\Heartbeat\PoseNet\shared\android\app\src\main\AndroidManifest.xml:24:9-68
+34-->D:\Tutorials\Heartbeat\PoseNet\shared\android\app\src\main\AndroidManifest.xml:24:19-66
+35            </intent-filter>
+36        </activity>
+37    </application>
+38
+39</manifest>
